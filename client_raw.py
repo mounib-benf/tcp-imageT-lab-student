@@ -73,6 +73,7 @@ def run_client():
     if img is None:
         print(f"Error: {IMAGE_PATH} not found.")
         client_socket.close()
+		
         return
 		
     #TODO 2: specifying height, width and channels from image shape
